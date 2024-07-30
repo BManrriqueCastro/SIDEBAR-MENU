@@ -18,14 +18,14 @@ body {
     --dark-color: #f62;
     --text-color: #333;
     background-color: var(--bg-color);
-    height: 200dvh;
+    height: 100dvh;
 }
 
 /*SIDEBAR STYLE*/
 .sidebar {
     background-color: var(--sidebar-color);
-    position: fixed;
-    height: 100dvh;
+    position: sticky;
+    min-height: 100dvh;
     width: clamp(220px, 20vw, 300px); /*Minimo, Ideal, Maximo*/
     font-size: clamp(1rem, 2.2vw, 3rem); /*Minimo, Ideal, Maximo*/
     display: flex;
